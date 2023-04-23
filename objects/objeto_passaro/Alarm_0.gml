@@ -3,23 +3,38 @@
 
 if (keyboard_check(vk_space))
 {
-	inercia -= massa * impulso_V;
+	if(inercia > maxspeed_Vp)
+	{
+		inercia -= massa * impulso_V;
+		if (velocidade >= 5)
+		{
+			velocidade -= massa;
+		}
+	}
 }
 else
 {
-	inercia += massa * gravidade;
+	if(inercia < maxspeed_Vn)
+	{
+		inercia += massa * impulso_V;
+		if(velocidade < maxspeed_H)
+		{
+			velocidade += massa * impulso_H;
+		}
+	}
 }
 
 if(colidiu = 0)
 {
 	y += inercia;
+	x += velocidade;
 	gravidade = 1;
 	impulso_V = 2;
 }
 else
 {
 	y += inercia;
-	if(y > 400)
+	if(y > 7300)
 	{
 		gravidade = 0;
 	}
