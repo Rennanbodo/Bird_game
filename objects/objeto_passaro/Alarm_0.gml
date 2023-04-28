@@ -1,22 +1,33 @@
-/// @description Insert description here
+/// @description Lógica de Movimento
 // You can write your code in this editor
+
+p_x = x;
+p_y = y;
 
 if (keyboard_check(vk_space))
 {
-	if(inercia > maxspeed_Vp)
+	if (folego > 0)
 	{
-		inercia -= massa * impulso_V;
-		if (velocidade >= 5)
+		if ( alarm[1] = -1)
 		{
-			velocidade -= massa;
+			alarm[1] = 3;
+		}
+		if(inercia > maxspeed_Vp)
+		{
+			inercia -= massa * impulso_V;
+			if (velocidade >= 5)
+			{
+				velocidade -= massa;
+			}
 		}
 	}
+
 }
 else
 {
 	if(inercia < maxspeed_Vn)
 	{
-		inercia += massa * impulso_V;
+		inercia += massa * gravidade;
 		if(velocidade < maxspeed_H)
 		{
 			velocidade += massa * impulso_H;
@@ -28,19 +39,18 @@ if(colidiu = 0)
 {
 	y += inercia;
 	x += velocidade;
-	gravidade = 1;
-	impulso_V = 2;
+	gravidade = 3;
+	impulso_V = 6;
 }
 else
 {
-	y += inercia;
-	if(y > 7300)
+	if( y + inercia > p_y)
 	{
-		gravidade = 0;
+		y = p_y;
 	}
 	else
 	{
-		impulso_V = 0;
+		y += inercia;
 	}
 	colidiu = 0;
 }

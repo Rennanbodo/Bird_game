@@ -18,8 +18,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
-    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"objeto_borda","order":1,"path":"objects/objeto_borda/objeto_borda.yy",},
-    {"name":"Sprite3","order":17,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"objeto_grama","order":2,"path":"objects/objeto_grama/objeto_grama.yy",},
+    {"name":"Sprite2_passaro","order":2,"path":"sprites/Sprite2_passaro/Sprite2_passaro.yy",},
+    {"name":"Sprite6_alpiste","order":5,"path":"sprites/Sprite6_alpiste/Sprite6_alpiste.yy",},
+    {"name":"Sprite3","order":3,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"objeto_alpiste","order":3,"path":"objects/objeto_alpiste/objeto_alpiste.yy",},
+    {"name":"Sprite5_grama","order":4,"path":"sprites/Sprite5_grama/Sprite5_grama.yy",},
   ],
 }

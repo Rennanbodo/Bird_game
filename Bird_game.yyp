@@ -35,10 +35,14 @@
   },
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"objeto_grama","path":"objects/objeto_grama/objeto_grama.yy",},},
     {"id":{"name":"objeto_passaro","path":"objects/objeto_passaro/objeto_passaro.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
-    {"id":{"name":"objeto_borda","path":"objects/objeto_borda/objeto_borda.yy",},},
+    {"id":{"name":"Sprite4_folego","path":"sprites/Sprite4_folego/Sprite4_folego.yy",},},
+    {"id":{"name":"Sprite2_passaro","path":"sprites/Sprite2_passaro/Sprite2_passaro.yy",},},
+    {"id":{"name":"Sprite6_alpiste","path":"sprites/Sprite6_alpiste/Sprite6_alpiste.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"objeto_alpiste","path":"objects/objeto_alpiste/objeto_alpiste.yy",},},
+    {"id":{"name":"Sprite5_grama","path":"sprites/Sprite5_grama/Sprite5_grama.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

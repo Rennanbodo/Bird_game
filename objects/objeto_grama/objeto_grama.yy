@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objeto_borda",
+  "name": "objeto_grama",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "Sprite5_grama",
+    "path": "sprites/Sprite5_grama/Sprite5_grama.yy",
   },
   "spriteMaskId": null,
   "visible": true,
